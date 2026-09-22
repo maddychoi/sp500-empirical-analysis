@@ -15,7 +15,7 @@ stores in SQLite, and runs OLS regression analysis.
 ## Key Findings
 - S&P 500 averaged 1.54% monthly returns during high rate environments 
   vs 0.87% during low rate periods
-- Unemployment rate is the strongest predictor of monthly returns (p=0.000)
+- Unemployment rate has the strongest association with monthly returns (p=0.000)
 - Federal Funds Rate shows a small positive association with returns (p=0.031)
 - Models explain ~10% of total stock market variation, consistent with 
   prior academic literature
