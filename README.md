@@ -2,11 +2,11 @@
 
 ## Overview
 End-to-end analysis of S&P 500 returns and macroeconomic indicators 
-using Python and SQL. Pulls live data from FRED and Yahoo Finance, 
+using Python and SQL. Pulls data from FRED and Yahoo Finance, 
 stores in SQLite, and runs OLS regression analysis.
 
 ## Key Skills Demonstrated
-- Python (pandas, numpy, matplotlib, statsmodels)
+- Python (pandas, matplotlib, statsmodels)
 - SQL (SQLite, JOINs, GROUP BY, CASE statements, aggregate functions)
 - Financial data collection via FRED API and Yahoo Finance
 - OLS regression analysis
@@ -15,10 +15,10 @@ stores in SQLite, and runs OLS regression analysis.
 ## Key Findings
 - S&P 500 averaged 1.54% monthly returns during high rate environments 
   vs 0.87% during low rate periods
-- Unemployment rate has the strongest association with monthly returns (p=0.000)
+- Unemployment rate has the strongest association with monthly returns (p<0.001)
 - Federal Funds Rate shows a small positive association with returns (p=0.031)
-- Models explain ~10% of total stock market variation, consistent with 
-  prior academic literature
+- Model explains 10.6% of S&P500 sample variation, consistent with 
+  my prior research
 
 ## Data Sources
 - Federal Reserve Economic Data (FRED)
